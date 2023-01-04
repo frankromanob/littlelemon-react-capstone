@@ -1,0 +1,23 @@
+{
+  "name": "littlelemon-react-capstone",
+  "version": "1.0.0",
+  "description": "capstone project for coursera react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankromanob/littlelemon-react-capstone.git"
+  },
+  "keywords": [
+    "littlelemon",
+    "react"
+  ],
+  "author": "Francisco Romano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frankromanob/littlelemon-react-capstone/issues"
+  },
+  "homepage": "https://github.com/frankromanob/littlelemon-react-capstone#readme"
+}
