@@ -1,5 +1,5 @@
 import React from 'react';
-import restaurantimg from '../img/restaurant.jpg'
+import restaurantimg from '../img/order_img.webp'
 
 function Hero() {
 return(

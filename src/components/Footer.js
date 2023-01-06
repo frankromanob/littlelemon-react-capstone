@@ -26,12 +26,11 @@ return(
         <li><a href='http://instagram.com'>Instagram</a></li>
         <li><a href='http://facebook.com'>Facebook</a></li>
     </div>
-    <div className="row justify-content-center">
-              <div className="col-auto">
+            <div  className='copyright'>
                   <p>© Copyright 2023 Little Lemon FR</p>
               </div>
           </div>
-  </div>
+
 
 )
 }
