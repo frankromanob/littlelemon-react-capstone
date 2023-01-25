@@ -1,3 +1,4 @@
+import { watchOptions } from 'browser-sync/dist/default-config';
 import React from 'react';
 import { useState } from 'react';
 
@@ -9,6 +10,8 @@ function BookingForm() {
         occasion:"",
         guests:1,
       });
+
+    const [availableTimes, setaAvailableTimes] = useState(['17:00','18:00','19:00','20:00','21:00','22:00']);
 
       const {resdate,restime,occasion,guests} = data;
 
@@ -29,12 +32,8 @@ return(
         <input type="date" name="resdate" value={resdate} onChange={changeHandler}/><br />
         <label htmlFor="restime">Choose time: </label>
         <select name="restime" value={restime} onChange={changeHandler}>
-            <option>17:00</option>
-            <option>18:00</option>
-            <option>19:00</option>
-            <option>20:00</option>
-            <option>21:00</option>
-            <option>22:00</option>
+            {availableTimes.map(item =>{
+                return (<option key={item} value={item}>{item}</option>);})}
         </select> <br/>
         <label htmlFor="guests"> Number of guests: </label>
         <input type="number" placeholder="1" min="1" max="10" name="guests" value={guests} onChange={changeHandler} /><br />
