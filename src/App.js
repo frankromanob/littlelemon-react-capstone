@@ -2,7 +2,7 @@ import './App.css';
 import Footer from './components/Footer';
 import Nav from './components/Nav';
 import Main from './components/Main';
-import Hero from './components/Hero';
+import ConfirmedBooking from './components/ConfirmedBooking';
 import About from './components/About';
 import Login from './components/Login';
 import Menu from './components/Menu';
@@ -23,6 +23,7 @@ function App() {
           <Route path="menu" element={<Menu />} />
           <Route path="order" element={<Order />} />
           <Route path="login" element={<Login />} />
+          <Route path='confirmedbooking' element={<ConfirmedBooking/>} />
         </Route>
       </Routes>
       <Footer />
