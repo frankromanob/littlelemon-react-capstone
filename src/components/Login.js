@@ -20,10 +20,10 @@ function Login() {
     }
 
   return(
-  <div >
+  <div className='caja'>
+   <div className='form'>
    <h2>Login</h2>
-   <h2>Here you can log in your account to manage your favourites dishes</h2>
-   <div className='loginform'>
+   <h3>Log in to manage your favourites dishes</h3>
     <form onSubmit={submitHandler}>
         <label for="username">User: </label>
         <input type="text" name="username" value={username}
