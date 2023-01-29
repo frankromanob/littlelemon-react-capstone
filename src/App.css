@@ -41,7 +41,7 @@
 .container {
   display: grid;
   grid-template-columns: 100px 100px 100px;
-  grid-template-rows: 2fr 1fr; 
+  grid-template-rows: 2fr 1fr;
 }
 
 .home {
@@ -245,9 +245,33 @@ footer div {
     padding-bottom: 1rem;
   }
 
+  .caja-about{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
   .card-img {
     width: 200px;
     height: 120px;
     margin-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .img-green{
+    background-color: #495e57;
+    border-radius: 1rem;
+    color: white;
+    justify-items: center;
+  }
+
+  .card-img-2 {
+    width: 500px;
+    height: auto;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
     padding-bottom: 1rem;
   }
