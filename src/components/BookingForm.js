@@ -75,7 +75,7 @@ function BookingForm() {
                         <option>Business</option>
                         <option>Other</option>
                     </select><br />
-                    <input type="submit" name="submit" value="Make Your reservation" />
+                    <input aria-label="On Click" type="submit" name="submit" value="Make Your reservation" />
                 </form>
             </div>
         </div>
