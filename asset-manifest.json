@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/littlelemon-react-capstone/static/css/main.64a59cb5.css",
+    "main.js": "/littlelemon-react-capstone/static/js/main.bf9e8846.js",
+    "static/js/787.5aaa5b0e.chunk.js": "/littlelemon-react-capstone/static/js/787.5aaa5b0e.chunk.js",
+    "static/media/restauranfood.jpg": "/littlelemon-react-capstone/static/media/restauranfood.e8abf5b772b6817189aa.jpg",
+    "static/media/order_img.webp": "/littlelemon-react-capstone/static/media/order_img.877415d12be5156bf0c2.webp",
+    "static/media/Logo.svg": "/littlelemon-react-capstone/static/media/Logo.6c132dfefa69396bba43f72aa595e62f.svg",
+    "index.html": "/littlelemon-react-capstone/index.html",
+    "main.64a59cb5.css.map": "/littlelemon-react-capstone/static/css/main.64a59cb5.css.map",
+    "main.bf9e8846.js.map": "/littlelemon-react-capstone/static/js/main.bf9e8846.js.map",
+    "787.5aaa5b0e.chunk.js.map": "/littlelemon-react-capstone/static/js/787.5aaa5b0e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64a59cb5.css",
+    "static/js/main.bf9e8846.js"
+  ]
+}
