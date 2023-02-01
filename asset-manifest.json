@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/littlelemon-react-capstone/static/css/main.64a59cb5.css",
-    "main.js": "/littlelemon-react-capstone/static/js/main.b8237787.js",
+    "main.js": "/littlelemon-react-capstone/static/js/main.d194d0c9.js",
     "static/js/787.5aaa5b0e.chunk.js": "/littlelemon-react-capstone/static/js/787.5aaa5b0e.chunk.js",
     "static/media/Mario and Adrian A.jpg": "/littlelemon-react-capstone/static/media/Mario and Adrian A.7f44c6d6e341a27d14b3.jpg",
     "static/media/bruchetta.svg": "/littlelemon-react-capstone/static/media/bruchetta.29ea078fea3d3120ed22402e901b5bbc.svg",
@@ -12,11 +12,11 @@
     "static/media/Logo.svg": "/littlelemon-react-capstone/static/media/Logo.6c132dfefa69396bba43f72aa595e62f.svg",
     "index.html": "/littlelemon-react-capstone/index.html",
     "main.64a59cb5.css.map": "/littlelemon-react-capstone/static/css/main.64a59cb5.css.map",
-    "main.b8237787.js.map": "/littlelemon-react-capstone/static/js/main.b8237787.js.map",
+    "main.d194d0c9.js.map": "/littlelemon-react-capstone/static/js/main.d194d0c9.js.map",
     "787.5aaa5b0e.chunk.js.map": "/littlelemon-react-capstone/static/js/787.5aaa5b0e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.64a59cb5.css",
-    "static/js/main.b8237787.js"
+    "static/js/main.d194d0c9.js"
   ]
 }
