@@ -1,8 +1,15 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
+import { Outlet,useNavigate } from 'react-router-dom';
 import restaurantimg from '../img/order_img.webp';
 
 function Main() {
+
+const navega = useNavigate();
+
+
+const orderNavHandler = e =>{
+  navega('/order');
+}
   return (
     <div>
       <div className='herodiv'>
@@ -10,16 +17,13 @@ function Main() {
           <h1>Little Lemon</h1>
           <h2>Chicago</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip
-            ex ea commodo consequat.
+            Little Lemon is a novelty Bistro founde in Chicago IL.
+            Inspired on French cousine, intimate and with a casual atmosphere and serve simple, yet delicious food.
           </p>
         </article>
         <div>
           <img className="restaurantimg" src={restaurantimg} alt='Little Lemon' />
-          <button className="orderbutton"  >Order now!</button>
+          <button className="orderbutton" onClick={orderNavHandler} >Order now!</button>
         </div>
       </div>
       <div>
