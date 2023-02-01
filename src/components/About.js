@@ -1,4 +1,6 @@
 import React from 'react';
+import marioandadrian from "../img/Mario and Adrian A.jpg"
+import restimg from "../img/restaurant.jpg"
 
 function About() {
 return(
@@ -9,11 +11,11 @@ return(
     </article>
     <div className="caja-about">
         <div className="img-green">
-          <img src="/img/Mario and Adrian A.jpg" className="card-img-2" alt="Mario and Adrian" />
+          <img src={marioandadrian} className="card-img-2" alt="Mario and Adrian" />
           <p>Mario and Adrian share a vision of good food and happy people</p>
         </div>
         <div className="img-green">
-          <img src="/img/restaurant.jpg" className="card-img-2" alt="Our restaurant" />
+          <img src={restimg} className="card-img-2" alt="Our restaurant" />
           <p>Our tables are always ready for you</p>
         </div>
     </div>

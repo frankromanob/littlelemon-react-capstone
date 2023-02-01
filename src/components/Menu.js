@@ -1,4 +1,7 @@
 import React from 'react';
+import saladimg from "../img/greek salad.jpg"
+import bruchetaimg from "../img/bruchetta.svg"
+import lemonpieimg from "../img/lemon dessert.jpg"
 
 function Menu() {
   return (
@@ -9,7 +12,7 @@ function Menu() {
       </article>
       <div className="caja-menu">
         <div className="form">
-          <img src="/img/greek salad.jpg" className="card-img" alt="salad" />
+          <img src={saladimg} className="card-img" alt="salad" />
           <div className="card-text">
             <h3 className="card-title">Greek Salad</h3>
             <div className="card-price-container">
@@ -20,7 +23,7 @@ function Menu() {
           </div>
         </div>
         <div className="form">
-          <img src="/img/bruchetta.svg" className="card-img" alt="bruchetta" />
+          <img src={bruchetaimg} className="card-img" alt="bruchetta" />
           <div className="card-text">
             <h3 className="card-title">Bruchetta</h3>
             <div className="card-price-container">
@@ -31,7 +34,7 @@ function Menu() {
           </div>
         </div>
         <div className="form">
-          <img src="/img/lemon dessert.jpg" className="card-img" alt="lemon" />
+          <img src={lemonpieimg} className="card-img" alt="lemon" />
           <div className="card-text">
             <h3 className="card-title">Lemon Dessert</h3>
             <div className="card-price-container">
