@@ -17,8 +17,8 @@ const orderNavHandler = e =>{
           <h1>Little Lemon</h1>
           <h2>Chicago</h2>
           <p>
-            Little Lemon is a novelty Bistro founde in Chicago IL.
-            Inspired on French cousine, intimate and with a casual atmosphere and serve simple, yet delicious food.
+            Little Lemon is a novelty Bistro founded in Chicago IL.
+            Inspired on french cuisine, intimate and with a casual atmosphere and serve simple, yet delicious food.
           </p>
         </article>
         <div>

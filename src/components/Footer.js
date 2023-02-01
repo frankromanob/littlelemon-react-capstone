@@ -9,12 +9,12 @@ function Footer() {
             <div className="Footer_inner_left">
                 <h2>Links</h2>
                 <ul className='footerlinks'>
-                    <li><Link to='/'>Home</Link></li>
-                    <li><Link to='/about'>About</Link></li>
-                    <li><Link to='/menu'>Menu</Link></li>
-                    <li><Link to='/reservations'>Reservations</Link></li>
-                    <li><Link to='/order'>Order Online</Link></li>
-                    <li><Link to='/login'>Login</Link></li>
+                    <li><Link to='/littlelemon-react-capstone/'>Home</Link></li>
+                    <li><Link to='/littlelemon-react-capstone/about'>About</Link></li>
+                    <li><Link to='/littlelemon-react-capstone/menu'>Menu</Link></li>
+                    <li><Link to='/littlelemon-react-capstone/reservations'>Reservations</Link></li>
+                    <li><Link to='/littlelemon-react-capstone/order'>Order Online</Link></li>
+                    <li><Link to='/littlelemon-react-capstone/login'>Login</Link></li>
                 </ul>
             </div>
             <div className="Footer_inner_center">
