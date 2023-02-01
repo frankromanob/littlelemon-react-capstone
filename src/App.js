@@ -17,13 +17,13 @@ function App() {
     <BrowserRouter>
       <Nav />
       <Routes>
-        <Route path="/" element={<Main />}>
-          <Route path="reservations" element={<BookingPage />} />
-          <Route path="about" element={<About />} />
-          <Route path="menu" element={<Menu />} />
-          <Route path="order" element={<Order />} />
-          <Route path="login" element={<Login />} />
-          <Route path='confirmedbooking' element={<ConfirmedBooking/>} />
+        <Route path="/littlelemon-react-capstone/" element={<Main />}>
+          <Route path="/littlelemon-react-capstone/reservations" element={<BookingPage />} />
+          <Route path="/littlelemon-react-capstone/about" element={<About />} />
+          <Route path="/littlelemon-react-capstone/menu" element={<Menu />} />
+          <Route path="/littlelemon-react-capstone/order" element={<Order />} />
+          <Route path="/littlelemon-react-capstone/login" element={<Login />} />
+          <Route path='/littlelemon-react-capstone/confirmedbooking' element={<ConfirmedBooking/>} />
         </Route>
       </Routes>
       <Footer />

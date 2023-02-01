@@ -48,7 +48,7 @@ function BookingForm() {
     }
 
     useEffect(() => {
-        if (confirmresult.reserva == true) {
+        if (confirmresult.reserva === true) {
             navega("/confirmedbooking",{state:data});
         }
     }, [confirmresult]);

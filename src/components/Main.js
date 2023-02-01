@@ -8,7 +8,7 @@ const navega = useNavigate();
 
 
 const orderNavHandler = e =>{
-  navega('/order');
+  navega('/littlelemon-react-capstone/order');
 }
   return (
     <div>
